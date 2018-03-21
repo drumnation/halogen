@@ -25,11 +25,11 @@ var selfCleaningTimeout = {
     })
 };
 
-var ComponentPreview = React.createClass({
+var ComponentPreview = createReactClass({
     displayName: 'ComponentPreview',
 
     propTypes: {
-        code: React.PropTypes.string.isRequired
+        code: PropTypes.string.isRequired
     },
 
     mixins: [selfCleaningTimeout],
@@ -79,7 +79,7 @@ var ComponentPreview = React.createClass({
 
 var IS_MOBILE = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i);
 
-var CodeMirrorEditor = React.createClass({
+var CodeMirrorEditor = createReactClass({
     displayName: 'CodeMirrorEditor',
 
     componentDidMount: function componentDidMount() {
@@ -131,11 +131,11 @@ var CodeMirrorEditor = React.createClass({
     }
 });
 
-var ReactPlayground = React.createClass({
+var ReactPlayground = createReactClass({
     displayName: 'ReactPlayground',
 
     propTypes: {
-        codeText: React.PropTypes.string.isRequired
+        codeText: PropTypes.string.isRequired
     },
 
     getInitialState: function getInitialState() {

@@ -165,17 +165,17 @@ var keyframes = {
 
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -277,16 +277,16 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string
     },
 
     /**
@@ -402,16 +402,16 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string
     },
 
     /**
@@ -526,17 +526,17 @@ var rotateAnimationName = insertKeyframesRule(rotateKeyframes);
  */
 var bounceAnimationName = insertKeyframesRule(bounceKeyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -653,19 +653,19 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        height: React.PropTypes.string,
-        width: React.PropTypes.string,
-        margin: React.PropTypes.string,
-        radius: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        height: PropTypes.string,
+        width: PropTypes.string,
+        margin: PropTypes.string,
+        radius: PropTypes.string
     },
 
     /**
@@ -849,17 +849,17 @@ function random(top) {
     return Math.random() * top;
 }
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -976,17 +976,17 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -1094,17 +1094,17 @@ var insertKeyframesRule = require('domkit/insertKeyframesRule');
  */
 var animations = {};
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.number,
-        margin: React.PropTypes.number
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.number,
+        margin: PropTypes.number
     },
 
     /**
@@ -1258,17 +1258,17 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -1388,17 +1388,17 @@ var rightRotateAnimationName = insertKeyframesRule(rightRotateKeyframes);
  */
 var leftRotateAnimationName = insertKeyframesRule(leftRotateKeyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -1557,17 +1557,17 @@ var animationNameEven = insertKeyframesRule(keyframesEven);
  */
 var animationNameOdd = insertKeyframesRule(keyframesOdd);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -1674,17 +1674,17 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -1802,19 +1802,19 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        height: React.PropTypes.string,
-        width: React.PropTypes.string,
-        margin: React.PropTypes.string,
-        radius: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        height: PropTypes.string,
+        width: PropTypes.string,
+        margin: PropTypes.string,
+        radius: PropTypes.string
     },
 
     /**
@@ -1926,16 +1926,16 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string
     },
 
     /**
@@ -2040,17 +2040,17 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
@@ -2152,17 +2152,17 @@ var keyframes = {
  */
 var animationName = insertKeyframesRule(keyframes);
 
-var Loader = React.createClass({
+var Loader = createReactClass({
     displayName: 'Loader',
 
     /**
      * @type {Object}
      */
     propTypes: {
-        loading: React.PropTypes.bool,
-        color: React.PropTypes.string,
-        size: React.PropTypes.string,
-        margin: React.PropTypes.string
+        loading: PropTypes.bool,
+        color: PropTypes.string,
+        size: PropTypes.string,
+        margin: PropTypes.string
     },
 
     /**
