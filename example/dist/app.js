@@ -3,6 +3,8 @@ require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof requ
 
 var React = require('react');
 var ReactDOM = require('react-dom');
+var PropTypes = require('prop-types');
+var createReactClass = require('create-react-class');
 
 var selfCleaningTimeout = {
     componentDidUpdate: function componentDidUpdate() {
