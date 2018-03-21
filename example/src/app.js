@@ -1,4 +1,6 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
+var PropTypes = require('prop-types');
 var ReactDOM = require('react-dom');
 
 var selfCleaningTimeout = {
@@ -12,9 +14,9 @@ var selfCleaningTimeout = {
     }
 };
 
-var ComponentPreview = React.createClass({
+var ComponentPreview = createReactClass({
     propTypes: {
-        code: React.PropTypes.string.isRequired
+        code: PropTypes.string.isRequired
     },
 
     mixins: [selfCleaningTimeout],
@@ -76,7 +78,7 @@ var IS_MOBILE = (
     || navigator.userAgent.match(/Windows Phone/i)
     );
 
-var CodeMirrorEditor = React.createClass({
+var CodeMirrorEditor = createReactClass({
     componentDidMount: function() {
         if (IS_MOBILE) return;
 
@@ -122,9 +124,9 @@ var CodeMirrorEditor = React.createClass({
     }
 });
 
-var ReactPlayground = React.createClass({
+var ReactPlayground = createReactClass({
     propTypes: {
-        codeText: React.PropTypes.string.isRequired
+        codeText: PropTypes.string.isRequired
     },
 
     getInitialState: function() {
